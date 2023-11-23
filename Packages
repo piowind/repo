@@ -17,21 +17,21 @@ Description: A MobileTerminal fork. Full Screen Support
 Author: lordscotland
 Name: MTerminal-Rootless
 
-Package: com.pro.fuckawemev5
-Version: 1.0.0
+Package: com.pro.fuckaweme
+Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: ByteDance
-Installed-Size: 272
+Installed-Size: 512
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/rootless/com.pro.fuckawemev5_1.0.0_iphoneos-arm64.deb
-Size: 83414
-MD5sum: 8300e0e8e35231d8bbc5ac1731cd9d2a
-SHA1: 59b97ba89c00b1ada67b494ba55d45465e4269f7
-SHA256: c41088001e0d0bf7f55c089ea6272e0f0cb6304880e3a69ababd5698f3e7b3e1
+Filename: ./debs/rootless/com.pro.fuckaweme_0.0.1_iphoneos-arm64.deb
+Size: 157890
+MD5sum: ca5ed7a30fbe7edcfc816c7ec50a97c4
+SHA1: 2fd562822dd26f4a008962948a84e56026682a6c
+SHA256: caac1fb1c61f3cd146eb787fa1745a580755be7d5829d280a0dfecd4853e6797
 Section: Tweaks
-Description: Hook Aweme Sign V5+
+Description: An awesome MobileSubstrate tweak!
 Author: ByteDance
-Name: fuckAwemeV5
+Name: fuckAweme
 
 Package: netskao.3dnetworkfixer
 Version: 1.1-8
