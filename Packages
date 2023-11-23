@@ -33,6 +33,44 @@ Description: An awesome MobileSubstrate tweak!
 Author: ByteDance
 Name: fuckAweme
 
+Package: ellekit
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: ./debs/rootless/ellekit_1.1_iphoneos-arm64.deb
+Size: 326584
+MD5sum: 586df5df3b7c3e37ca30ee71b59ef650
+SHA1: ef9cac8524ab6bb06cb7a369766472f025e8b46c
+SHA256: 97b6f4e7980ce06c33d74be547eea826e88086c1a6fa214a5a44977d81dc1f6f
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 1.1+debug
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: ./debs/rootless/ellekit_1.1+debug_iphoneos-arm64.deb
+Size: 541140
+MD5sum: 9540b21ff8899ce7fdd888267ef09c28
+SHA1: 6cd6cfe06a3ead62d384447443e93b34a85fb6b0
+SHA256: ce94f4365b698e8c36c9b9f410d599b5ccfed6f661366b636478e742e4555fdf
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: netskao.3dnetworkfixer
 Version: 1.1-8
 Architecture: iphoneos-arm
