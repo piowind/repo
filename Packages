@@ -33,25 +33,6 @@ Description: An awesome MobileSubstrate tweak!
 Author: ByteDance
 Name: fuckAweme
 
-Package: ellekit
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Filename: ./debs/rootless/ellekit_1.1_iphoneos-arm64.deb
-Size: 326584
-MD5sum: 586df5df3b7c3e37ca30ee71b59ef650
-SHA1: ef9cac8524ab6bb06cb7a369766472f025e8b46c
-SHA256: 97b6f4e7980ce06c33d74be547eea826e88086c1a6fa214a5a44977d81dc1f6f
-Section: Tweak Injection
-Priority: optional
-Description: ElleKit tweak injection libraries and loader
-Author: Evelyn
-Icon: https://ellekit.space/logos/logo.png
-Name: ElleKit
-
 Package: netskao.3dnetworkfixer
 Version: 1.1-8
 Architecture: iphoneos-arm
@@ -116,22 +97,6 @@ Description: 支付宝去除底部理财选项(理财是不可能理财的, 只�
 Author: Netskao
 Name: 支付宝 Hooks
 
-Package: netskao.alipayhooks-rootless
-Version: 1.1-3
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 328
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/rootless/netskao.alipayhooks-rootless_1.1-3_iphoneos-arm64.deb
-Size: 72548
-MD5sum: 8f29c3210d8fde504f7b8713d817c52b
-SHA1: 0f72fdf71c5bdd08833ef4f5d137833242a6f45e
-SHA256: 0f0c1561c9edd15d3f6ab47bd901416a0a9d17853cb746b2e3974f175eedce01
-Section: Netskao-Tweaks
-Description: 支付宝去除底部理财选项(理财是不可能理财的, 只有收收钱勉强维持生活), 固定每天10w步
-Author: Netskao
-Name: 支付宝 Hooks-Rootless
-
 Package: netskao.alipayscan
 Version: 1.2-2
 Architecture: iphoneos-arm
@@ -147,22 +112,6 @@ Section: Netskao-Tweaks
 Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
 Author: Netskao
 Name: AlipayScan
-
-Package: netskao.alipayscan-rootless
-Version: 1.2-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 160
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/rootless/netskao.alipayscan-rootless_1.2-2_iphoneos-arm64.deb
-Size: 15716
-MD5sum: 4c83edd84326ea1ae6d9be199379334a
-SHA1: b25d43273bfe5f92c630e1d9798d5227cf54d334
-SHA256: 18ba899a6d836c6117193852ed7a0c8c3d0a3a8bf0c3838e93f9bf083b7331c8
-Section: Netskao-Tweaks
-Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
-Author: Netskao
-Name: AlipayScan-Rootless
 
 Package: netskao.altstorepatch
 Version: 1.1-1
@@ -282,22 +231,6 @@ Section: Netskao-Tweaks
 Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本抖音
 Author: Netskao
 Name: 抖音净化
-
-Package: netskao.awemepurification-rootless
-Version: 2.9-6
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 2480
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: ./debs/rootless/netskao.awemepurification-rootless_2.9-6_iphoneos-arm64.deb
-Size: 1175820
-MD5sum: ef97b8ba1120d5db3b273fec40946545
-SHA1: fefb5dec03aaeb6eebbb77d0a5c6e0aba7add653
-SHA256: c13c84930e723dd0005e71564fb708ab361fceadb85c89015eb026599f9e639d
-Section: Netskao-Tweaks
-Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本抖音
-Author: Netskao
-Name: 抖音净化-Rootless
 
 Package: netskao.barbatteryinfo
 Version: 1.2-3
@@ -1590,20 +1523,4 @@ Section: Netskao-NoAds
 Description: 小红书去除启动广告, 去除信息流视频流广告, 修改原始按钮保存无水印视频和图片和live图和评论区图片, 解除部分视频无法下载, 添加长按文案快捷复制作者名或文案, 仅支持8.5及以上版本
 Author: Netskao
 Name: 小红书 NoAds
-
-Package: netskao.xhsnoads-rootless
-Version: 1.3-7
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 392
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/rootless/netskao.xhsnoads-rootless_1.3-7_iphoneos-arm64.deb
-Size: 89564
-MD5sum: 175fd39358b2c3e2433bdd56f1e3c061
-SHA1: 3da9625695159d450bcda51c6ed3449c9295a2a8
-SHA256: 9adb5d09cd8d5e95ba20d534bbce0a245e1fc79943add2863135cfb68f7f218f
-Section: Netskao-NoAds
-Description: 小红书去除启动广告, 去除信息流视频流广告, 修改原始按钮保存无水印视频和图片和live图和评论区图片, 解除部分视频无法下载, 添加长按文案快捷复制作者名或文案, 仅支持8.5及以上版本
-Author: Netskao
-Name: 小红书 NoAds-Rootless
 
