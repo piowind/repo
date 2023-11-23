@@ -24,10 +24,10 @@ Maintainer: ByteDance
 Installed-Size: 512
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/rootless/com.pro.fuckaweme_0.0.1_iphoneos-arm64.deb
-Size: 157894
-MD5sum: b7b8ed503f1d736efe725249c96ac81f
-SHA1: a955168b3fd81189fffef2c2fff5953f0cb7f389
-SHA256: 9a5156648b91d0a48f9e5059458357ba7b3e254040ca83ed61ac01bd0cfc528e
+Size: 157904
+MD5sum: 6a9e13d6817b40f7296eb84a4b50c051
+SHA1: ad1e436bb5284b20cae3b6fb8395b510aed71feb
+SHA256: 79bc7cb8feb78e5f82169ffdbe403d6269295a11840392580538bf46173b4831
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: ByteDance
