@@ -51,6 +51,22 @@ Description: An awesome MobileSubstrate tweak!
 Author: ByteDance
 Name: fuckAweme
 
+Package: com.pro.podapp-rootless
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: ByteDance
+Installed-Size: 148
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootless/com.pro.podapp-rootless_0.0.1_iphoneos-arm64.deb
+Size: 35602
+MD5sum: 1811e8809d1ff83fe0d8d6a83dd09a3e
+SHA1: 50d13495e039908157bee7a121fb297cec2e6dbb
+SHA256: 1ce97714b7a3bcdbbdfd90df9ee22204bec3580033af776b56f70c5d10dd2be9
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: ByteDance
+Name: PodApp-RootLess
+
 Package: netskao.3dnetworkfixer
 Version: 1.1-8
 Architecture: iphoneos-arm
