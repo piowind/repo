@@ -1,3 +1,21 @@
+Package: com.bytes.reveal2loader
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Piowind
+Installed-Size: 1304
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Filename: ./debs/rootfull/com.bytes.reveal2loader_1.0.0_iphoneos-arm.deb
+Size: 359696
+MD5sum: e9fe4cde33c03a43b32606a03f65d868
+SHA1: 20dc49718c815ba2a06db69af66f61f69a00a3b9
+SHA256: b12254a35803a8acec172345827e6753faa993d19b2bb911aa1a30189da91c00
+Section: Tweaks
+Priority: optional
+Description: dynamically loads Reveal v41(17801) into applications and plugins. replace new version of Reveal.framework : ./layout/Library/Frameworks/RevealServer.framework
+Author: Piowind
+Icon: file:///RevealLoaderPrefs/Resources/reveal-logo@3x.png
+Name: Reveal2Loader
+
 Package: com.officialscheduler.mterminal-rootless
 Version: 1.4-1
 Architecture: iphoneos-arm64
@@ -80,38 +98,6 @@ Section: Netskao-Tweaks
 Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition
 Author: Netskao
 Name: ActionBar Reborn
-
-Package: netskao.alipayhooks
-Version: 1.1-3
-Architecture: iphoneos-arm
-Maintainer: Nets
-Installed-Size: 328
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/rootfull/netskao.alipayhooks_1.1-3_iphoneos-arm.deb
-Size: 72180
-MD5sum: efd49f153bdc4934f9ce4737c7fbf40b
-SHA1: 6f73c994ccf3810218eb7173a89eb130bfae4c5c
-SHA256: f8b25a4289574846446c06aec932b4e8233b3422de5cf2036ccd02ed73bc8330
-Section: Netskao-Tweaks
-Description: 支付宝去除底部理财选项(理财是不可能理财的, 只有收收钱勉强维持生活), 固定每天10w步
-Author: Netskao
-Name: 支付宝 Hooks
-
-Package: netskao.alipayscan
-Version: 1.2-2
-Architecture: iphoneos-arm
-Maintainer: Nets
-Installed-Size: 144
-Depends: firmware (>= 11.0), mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/rootfull/netskao.alipayscan_1.2-2_iphoneos-arm.deb
-Size: 15724
-MD5sum: 860fbeb5fe545356898aac1d3f802a7a
-SHA1: 8863a6e263b93c602b693ca14053361b1e2d53f8
-SHA256: a0eb3c5343bc3be6b4b74533cd951afc92d37ff8e4e1f007a59c5fd2ccfd7a57
-Section: Netskao-Tweaks
-Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
-Author: Netskao
-Name: AlipayScan
 
 Package: netskao.altstorepatch
 Version: 1.1-1
@@ -215,22 +201,6 @@ Section: Netskao-Tweaks
 Description: 面容识别成功自动解锁无需滑动，原生函数更为节电，可设置锁屏收到通知时不自动解锁，锁屏正在播放音乐时不自动解锁，锁屏手电筒打开时不自动解锁，面容识别失败后自动重试，面容延时解锁，请勿和其他类似插件一同食用
 Author: Netskao
 Name: AutoFaceUnlock-Rootless
-
-Package: netskao.awemepurification
-Version: 2.9-6
-Architecture: iphoneos-arm
-Maintainer: Nets
-Installed-Size: 2432
-Depends: mobilesubstrate, firmware (>= 11.0)
-Filename: ./debs/rootfull/netskao.awemepurification_2.9-6_iphoneos-arm.deb
-Size: 1175364
-MD5sum: 9120015834f05cfa279e995ed12aafd2
-SHA1: f90c485ba2227ed109023dfb20cfc1a4a3e0ac1b
-SHA256: 074cd137f3b8ec7fe4ef637d04c4cd01b69aeff828445e6a0c8f2e8b601cf7ff
-Section: Netskao-Tweaks
-Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本抖音
-Author: Netskao
-Name: 抖音净化
 
 Package: netskao.barbatteryinfo
 Version: 1.2-3
@@ -1428,22 +1398,6 @@ Description: 微信净化，还原聊天本质，干净的微信给你，仅支�
 Author: Netskao
 Name: 微信净化
 
-Package: netskao.wechatscan
-Version: 1.2-2
-Architecture: iphoneos-arm
-Maintainer: Nets
-Installed-Size: 144
-Depends: firmware (>= 11.0), mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/rootfull/netskao.wechatscan_1.2-2_iphoneos-arm.deb
-Size: 15880
-MD5sum: 9f71a324950ed797db410eaf8e249c94
-SHA1: 226d36162f12ca57500e50927d8c1034dfc628b0
-SHA256: 7d55fc652fbb72225933d3b6b3c83393a795f30e6310ca89ed9aedd6ad22aeb1
-Section: Netskao-Tweaks
-Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心-自定控制内添加后使用
-Author: Netskao
-Name: WeChatScan
-
 Package: netskao.weibonoads
 Version: 1.9-8
 Architecture: iphoneos-arm
@@ -1507,20 +1461,4 @@ Section: Netskao-Cracks
 Description: 无染二次元去除所有广告
 Author: Netskao
 Name: 无染二次元 NoAds-Rootless
-
-Package: netskao.xhsnoads
-Version: 1.3-7
-Architecture: iphoneos-arm
-Maintainer: Nets
-Installed-Size: 392
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debs/rootfull/netskao.xhsnoads_1.3-7_iphoneos-arm.deb
-Size: 89340
-MD5sum: 814bbf648580ed3aeac99a158290b17c
-SHA1: 3fb4579ea43784419762cf41b504df762fef32f4
-SHA256: c0812fc0fda0ab5afa9c8cde1069989a36661ee4d75816daa98d3d6c3639214c
-Section: Netskao-NoAds
-Description: 小红书去除启动广告, 去除信息流视频流广告, 修改原始按钮保存无水印视频和图片和live图和评论区图片, 解除部分视频无法下载, 添加长按文案快捷复制作者名或文案, 仅支持8.5及以上版本
-Author: Netskao
-Name: 小红书 NoAds
 
