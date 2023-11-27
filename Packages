@@ -1,14 +1,32 @@
 Package: com.bytes.reveal2loader
 Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Piowind
+Installed-Size: 1336
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Filename: ./debs/rootless/com.bytes.reveal2loader_1.0.0_iphoneos-arm64.deb
+Size: 360058
+MD5sum: 18fc0619d6390610c9e359e72dc89267
+SHA1: 9153b2200773acb97e9022d433f86c9a3cc4b60c
+SHA256: e802601a91b2bc065e49f13c126e19227b2ba13f9515dc07ce252626defe55a7
+Section: Tweaks
+Priority: optional
+Description: dynamically loads Reveal v41(17801) into applications and plugins. replace new version of Reveal.framework : ./layout/Library/Frameworks/RevealServer.framework
+Author: Piowind
+Icon: file:///RevealLoaderPrefs/Resources/reveal-logo@3x.png
+Name: Reveal2Loader
+
+Package: com.bytes.reveal2loader
+Version: 2.0.0
 Architecture: iphoneos-arm
 Maintainer: Piowind
 Installed-Size: 1304
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Filename: ./debs/rootfull/com.bytes.reveal2loader_1.0.0_iphoneos-arm.deb
-Size: 359696
-MD5sum: e9fe4cde33c03a43b32606a03f65d868
-SHA1: 20dc49718c815ba2a06db69af66f61f69a00a3b9
-SHA256: b12254a35803a8acec172345827e6753faa993d19b2bb911aa1a30189da91c00
+Filename: ./debs/rootfull/com.bytes.reveal2loader_2.0.0_iphoneos-arm.deb
+Size: 359682
+MD5sum: 66e8057fba03d7bddd3dbaac781efa1f
+SHA1: 429ac6be3df7081e0a06b01d7bbc9c5ba4bf985c
+SHA256: 34ce01066497ed2b4462dfc4c5bf61955800dec76f3643d21a9722083fbe0529
 Section: Tweaks
 Priority: optional
 Description: dynamically loads Reveal v41(17801) into applications and plugins. replace new version of Reveal.framework : ./layout/Library/Frameworks/RevealServer.framework
